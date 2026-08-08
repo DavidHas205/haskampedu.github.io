@@ -2,17 +2,68 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Downloads</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #f5f7fb;
+      color: #333;
+    }
+
+    nav {
+      background: #1d4ed8;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+
+    .download-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .button {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>Downloads</h1>
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="downloads.html">Downloads</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
 
-<ul>
-  <li><a href="materialien/test.pdf">Arbeitsblatt Englisch</a></li>
-</ul>
+  <h1>📥 Downloads</h1>
 
-<p><a href="index.html">Zurück zur Startseite</a></p>
+  <div class="download-card">
+    <h2>Arbeitsblatt Englisch – Shopping</h2>
+    <p>Ein einfaches Arbeitsblatt für Förderschule / DaZ.</p>
+    <a class="button" href="materialien/test.pdf">PDF herunterladen</a>
+  </div>
 
 </body>
 </html>
